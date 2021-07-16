@@ -3,4 +3,11 @@ const obj = {
     b: 2
 }
 
+const obj2 = {
+    ...obj,
+    c:3,
+    b:4
+}
+
 console.log(obj)
+console.log(obj2)
