@@ -1,0 +1,12 @@
+
+@use "variable";
+body{
+    margin: 100px;
+    background: variable.$bg;
+    color: var(--text);
+    font-size: 40px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
